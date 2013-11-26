@@ -4,14 +4,12 @@ Use of this source code is governed by a BSD-style
 license that can be found in the LICENSE file.
 */
 
-@host {
-  * {
-    display: block;
-    background-color: #f2f2ef;
-    padding: 10px;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-  }
+:host {
+  display: block;
+  background-color: #f2f2ef;
+  padding: 10px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
 }
 
 .inner {
